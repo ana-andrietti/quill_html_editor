@@ -173,8 +173,8 @@ class ElTooltipState extends State<ElTooltip> with WidgetsBindingObserver {
   /// Measures the size of the screen to calculate possible overflow
   ElementBox _getScreenSize() {
     return ElementBox(
-      w: MediaQuery.of(context).size.width,
-      h: MediaQuery.of(context).size.height,
+      w: 300,
+      h: 300,
     );
   }
 
